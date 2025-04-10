@@ -1,20 +1,38 @@
-# Análise de Frequência de Caracteres em Textos - Português e Inglês
+# 🔠 Análise de Frequência de Letras
 
-Este projeto tem como objetivo realizar a **análise de frequência de caracteres** em dois textos distintos — um em **português** e outro em **inglês** — para comparar a distribuição das letras em cada idioma. A visualização dos resultados é feita de forma interativa com **gráficos** e **tabelas** utilizando a biblioteca **Streamlit**.
+Este é um aplicativo feito com **Python** e **Streamlit** que analisa a frequência das letras em dois textos: um em **português** e outro em **inglês**. Ele mostra:
 
-## 📚 Textos utilizados
+- As 10 letras mais usadas em cada texto (com gráfico e tabela)
+- Um gráfico comparativo das 5 letras mais frequentes em cada idioma
 
-### Texto em português
-Trecho do livro _Dom Casmurro_, de Machado de Assis.  
-Fonte:  
-> ASSIS, Machado de. *Dom Casmurro*. Prefácio de Ana Maria Haddad Baptista. Brasília: Câmara dos Deputados, Edições Câmara, 2008.  
-> Disponível em: https://ddcus.org/pdf/summer_reading/11th_grade/Dom_Casmurro-Machado_de_Assis.pdf
+---
 
-### Texto em inglês
-Trecho do livro _Alice’s Adventures in Wonderland_, de Lewis Carroll.  
-Fonte:  
-> CARROLL, Lewis. *Alice’s Adventures in Wonderland*. [S.l.]: Project Gutenberg, 2008. eBook #11.  
-> Disponível em: https://www.gutenberg.org/cache/epub/11/pg11-images.html
+## 🧪 Tecnologias utilizadas
 
-## ▶️ Como executar o projeto
-streamlit run analise_frequencia.py
+- [Python 3.10+](https://www.python.org/)
+- [Streamlit](https://streamlit.io/)
+- [Plotly](https://plotly.com/python/) – gráficos interativos
+- [Pandas](https://pandas.pydata.org/) – para manipular e exibir tabelas
+
+---
+
+## 🚀 Como executar o projeto
+
+1. **Clone este repositório** (ou baixe o código):
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+   
+---
+
+## 🔧 Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ✔️ Execute o app com Streamlit:
+```bash
+streamlit run app.py
+```
